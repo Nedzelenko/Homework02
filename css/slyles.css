@@ -1,0 +1,200 @@
+:root {
+  --primary-text-color: #212121;
+  --hover-color: #2196f3;
+  --title-text-color: #757575;
+  --white-color: #ffffff;
+  --background-fotter-header: #2f303a;
+  --logo-color: #000000;
+  --contact-footer: rgba(255, 255, 255, 0.6);
+  --bg-team-color: #f5f4fa;
+
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+}
+
+.header-logo {
+  color: var(--hover-color);
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+}
+.logo-second {
+  color: var(--logo-color);
+}
+.contact:hover {
+  color: var(--hover-color);
+}
+.contact {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.contact-header:hover {
+  color: var(--hover-color);
+
+}
+
+.contact-header {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+
+.main-caption {
+  font-weight: 900;
+  font-size: 44px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+.main-section {
+  background-color: var(--background-fotter-header);
+  font-weight: 900;
+  font-size: 44px;
+  color: var(--white-color);
+}
+.site-nav .link.current {
+  color: var(--hover-color);
+}
+.site-nav {
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+}
+.button {
+  background-color: var(--hover-color);
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #188ce8;
+  color: var(--white-color);
+}
+.head-title {
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.top-text {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.section-caption {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.section-team {
+  background: var(--bg-team-color);
+}
+.team-caption {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.team-skill {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.footer {
+  background-color: var(--background-fotter-header);
+}
+.logo-footer {
+  color: var(--white-color);
+}
+
+.address-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+.address-footer:hover,
+.address-footer:focus {
+  color: var(--hover-color);
+}
+.contact-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: var(--contact-footer);
+}
+.contact-footer:hover,
+.contact-footer:focus {
+  color: var(--hover-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+.button-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+}
+
+.button-section:hover,
+.button-section:focus {
+  background-color: var(--hover-color);
+  color: var(--white-color);
+}
+.button-section {
+  background-color: var(--bg-team-color);
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+.section-title {
+  color: var(--primary-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+}
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
